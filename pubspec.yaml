@@ -1,0 +1,23 @@
+name: pretext_flutter
+description: >-
+  Pure Dart text measurement & layout. Segments text once, caches widths,
+  then performs pure arithmetic for layout at any width. Enables pre-computed
+  text heights, variable-width text flow, and efficient text pagination.
+version: 0.0.1
+homepage: https://github.com/nathankim0/pretext_flutter
+repository: https://github.com/nathankim0/pretext_flutter
+issue_tracker: https://github.com/nathankim0/pretext_flutter/issues
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  characters: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
