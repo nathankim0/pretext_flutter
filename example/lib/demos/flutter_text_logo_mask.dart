@@ -97,9 +97,6 @@ class FlutterTextLogoObstacle {
 
     for (final row in mask.rows) {
       final y = rect.top + row.top * rect.height;
-      final nextY = rect.top + row.bottom * rect.height;
-      final bandHeight = nextY - y;
-      if (bandHeight < lineHeight * 0.6) continue;
 
       for (final segment in row.segments) {
         final x = rect.left + segment.left * rect.width;

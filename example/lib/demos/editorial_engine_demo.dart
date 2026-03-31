@@ -32,8 +32,8 @@ const _kNarrowActiveOrbs = 3;
 const _kMaxDt = 0.05;
 const _kSeparationForce = 0.8;
 const _kDragTapThreshold = 16.0; // squared distance
-const _kLogoFontSize = 10.0;
-const _kLogoLineHeight = 10.0;
+const _kLogoFontSize = 4.5;
+const _kLogoLineHeight = 4.5;
 const _kLogoPadding = 18.0;
 const _kLogoBodyGap = 20.0;
 
